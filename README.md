@@ -1,4 +1,4 @@
-# transparent-pt
+# TransparentCars
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-transparent-pt is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://transparent.pt/
+TransparentCars is a Portuguese marketplace offering used cars at fair prices. It provides tools for buying, importing, selling, and calculating taxes such as ISV and IUC. The platform emphasizes transparency, honest pricing, and assists customers throughout the purchase and registration process.
+
+**Areas:** Company
+
+## TransparentCars on APIs.io
+
+Everything profiled for TransparentCars is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/transparent-pt/](https://apis.io/providers/transparent-pt/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [TransparentCars Import API](https://apis.io/apis/transparent-pt/transparent-pt-import-api/) — Full cost of importing a car from Germany / the EU to Portugal, and of legalising one already here.
+- [TransparentCars Inventory API](https://apis.io/apis/transparent-pt/transparent-pt-inventory-api/) — Cars currently for sale.
+- [TransparentCars Leads API](https://apis.io/apis/transparent-pt/transparent-pt-leads-api/) — Consent-gated contact / callback capture.
+- [TransparentCars Running costs API](https://apis.io/apis/transparent-pt/transparent-pt-running-costs-api/) — Annual road-tax (IUC) lookup — what a car costs to keep on the road.
+- [TransparentCars Valuation API](https://apis.io/apis/transparent-pt/transparent-pt-valuation-api/) — Fair-price range for a car from comparable Portuguese listings.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [TransparentCars Agentic Access](https://apis.io/agentic-access/transparent-pt/transparent-pt-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CarDetail](https://apis.io/schemas/transparent-pt/transparent-pt-car-detail/)
+- [CarSummary](https://apis.io/schemas/transparent-pt/transparent-pt-car-summary/)
+- [ImportCostResult](https://apis.io/schemas/transparent-pt/transparent-pt-import-cost-result/)
+- [LeadIn](https://apis.io/schemas/transparent-pt/transparent-pt-lead-in/)
+- [LegalizationCostResult](https://apis.io/schemas/transparent-pt/transparent-pt-legalization-cost-result/)
+- [ValuationResult](https://apis.io/schemas/transparent-pt/transparent-pt-valuation-result/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Transparent Pt Context](https://apis.io/jsonld/transparent-pt/transparent-pt-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [TransparentCars API Rules](https://apis.io/rules/transparent-pt/transparent-pt-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [TransparentCars Domain Security](https://apis.io/security/transparent-pt/transparent-pt-domain-security/)
+- [TransparentCars Vulnerability Disclosure](https://apis.io/security/transparent-pt/transparent-pt-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://transparent.pt/)
+- [Blog](https://transparent.pt/pt/blog)
+- [Terms of service](https://transparent.pt/pt/terms)
+- [Privacy policy](https://transparent.pt/pt/privacy)
+
+## API Evangelist rating
+
+**Kin Score 37.9** — thin · rubric 0.28.0 · scored 2026-11-27
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 60.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 17.0 |
+
+**Agent readiness 39.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/transparent-pt/](https://apis.io/providers/transparent-pt/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for TransparentCars: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/transparent-pt/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
